@@ -17,7 +17,7 @@ setup(
 #   ],
 #    package_data={'boundary': ['templates/*']},
     license='Apache 2',
-    description='Python Bindings for the TrueSight Pulse REST APIs',
+    description='Flash application for creating custom dashboards in TrueSight Pulse',
     long_description=open('README.txt').read(),
     install_requires=[
     ],
