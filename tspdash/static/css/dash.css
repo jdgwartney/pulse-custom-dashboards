@@ -1,0 +1,16 @@
+html, body {
+    /*this css ensures the iframe is maximised in the window */
+    background: #000;
+    overflow: visible;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+iframe {
+    frameborder: 0;
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
