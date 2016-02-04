@@ -7,17 +7,14 @@ setup(
     author='David Gwartney',
     author_email='david_gwartney@bmc.com',
     packages=['tspdash', ],
-#    entry_points={
-#        'console_scripts': [
-#            'actionhandler = boundary.webhook_handler:main',
-#        ],
-#    },
-#    scripts=[
-#        'tsp-cli-env.sh',
-#   ],
-#    package_data={'boundary': ['templates/*']},
+    entry_points={
+        'console_scripts': [
+            'tsp-dashboard-demos = tspdash.dashboard_demos:main',
+        ],
+    },
+    package_data={'tspdash': ['templates/*']},
     license='Apache 2',
-    description='Flash application for creating custom dashboards in TrueSight Pulse',
+    description='Flask application for creating custom dashboards in TrueSight Pulse',
     long_description=open('README.txt').read(),
     install_requires=[
     ],
